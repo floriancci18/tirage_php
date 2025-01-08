@@ -5,17 +5,57 @@ submit.addEventListener('submit',function(event){
   
     let resultat = document.getElementById('resultat');
     this.style.display = 'none';
-    let compteur = 5;
+    let compteur = 10;
+    let peter = new Audio('peter.mp3');
+    let peter2 = new Audio('peter2.mp3');
     const compte = () =>{
+        moveImage();
         const interval = setInterval(() =>{
-            resultat.innerText = compteur;;
+            resultat.innerText = compteur;
             if(compteur==0){
                form.submit();
-                
-            }else{
+            }
+            else{
+                if(compteur == 9)
+                {
+                    peter.play();
+                }
+                else if(compteur == 7)
+                {
+                    peter2.play();
+                }
                 compteur--;
             }
         },1000);
     }
     compte();
 });
+function moveImage()
+{
+    const movingImage = document.getElementById('kenza');
+
+    let positionX = 0; // Position de départ (en pourcentage, centré horizontalement)
+    let positionY = 0; // Position de départ (en pourcentage, centré verticalement)
+
+    let intervalId;
+    // Affiche l'image
+      movingImage.style.display = 'block';
+
+      // Déplace l'image toutes les 50ms
+      intervalId = setInterval(() => {
+        positionX += 1; // Change la position horizontale
+        positionY += 1; // Change la position verticale
+
+        // Applique les nouvelles positions
+        movingImage.style.left = `${positionX}%`;
+        movingImage.style.top = `${positionY}%`;
+
+        // Arrête le mouvement si l'image sort de l'écran
+        if (positionX > 100 || positionY > 100) {
+          positionX=1;
+          positionY=1;
+          
+        }
+      }, 50);
+    
+}

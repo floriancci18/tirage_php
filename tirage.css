@@ -3,7 +3,7 @@ body{
     background-size:cover;
 }
 body#resultat{
-    background:url('background1.jpg') no-repeat;
+    background:url('fond_new.jpg') no-repeat;
     background-size:cover;
 }
 body#resultat div{
@@ -59,3 +59,14 @@ a{
     padding: 25px;
     border-radius:25px;
 }
+#kenza {
+    position: absolute;
+    width: 183px;
+    height: 275px;
+    background-image: url('kenza.jpeg');
+    background-size: cover;
+    top: 50%;  /* Initial position (centre de l'écran) */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; /* Caché initialement */
+  }
