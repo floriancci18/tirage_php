@@ -52,6 +52,7 @@ function moveImage()
 
         // Arrête le mouvement si l'image sort de l'écran
         if (positionX > 100 || positionY > 100) {
+          movingImage.style.backgroundImage = "url('9.jpg')";
           positionX=1;
           positionY=1;
           
