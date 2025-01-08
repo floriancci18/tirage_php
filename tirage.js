@@ -51,12 +51,15 @@ function moveImage()
         movingImage.style.top = `${positionY}%`;
 
         // Arrête le mouvement si l'image sort de l'écran
-        if (positionX > 100 || positionY > 100) {
+        if (positionX > 50 || positionY > 50) {
           movingImage.style.backgroundImage = "url('9.jpg')";
-          positionX=1;
-          positionY=1;
-          
         }
-      }, 50);
+        if(positionX > 99 || positionY > 99){
+            movingImage.style.backgroundImage = "url('tonio.jpg')";
+            positionX=1;
+            positionY=1;
+        }
+        
+      }, 20);
     
 }
