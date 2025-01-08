@@ -1,0 +1,61 @@
+body{
+    background:url('background1.jpg') no-repeat;
+    background-size:cover;
+}
+body#resultat{
+    background:url('background1.jpg') no-repeat;
+    background-size:cover;
+}
+body#resultat div{
+    background:white;
+    opacity:0.4;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    color:black;
+    text-align: center;
+    line-height: 400px;
+    font-size: 80px;
+}
+form{
+    background: white;
+    opacity: 0.6;
+    width: 30%;
+    margin: 0 auto;
+}
+form div{
+    text-align: center;
+    font-size:25px;
+    margin:20px 0;
+}
+button{
+    background: url('images.jpeg') no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    color: red;
+    font-size:40px;
+}
+div#resultat{
+    text-align: center;
+    color:pink;
+    font-size: 150px;
+    line-height: 100vh;
+
+}
+a{
+    text-align: center;
+}
+.link{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    color:pink;
+    font-size:35px;
+    background: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px;
+    border-radius:25px;
+}
