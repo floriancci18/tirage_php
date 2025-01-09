@@ -63,3 +63,20 @@ function moveImage()
       }, 20);
     
 }
+const backgrounds = [
+    "url('background1.jpg')",
+    "url('background2.jpg')",
+    "url('background3.png')"
+];
+
+let index = 0;
+
+// Fonction pour changer le fond
+function changeBackground() {
+    document.body.style.background = backgrounds[index];
+    document.body.style.backgroundSize = "cover"; // Optionnel pour les images
+    index = (index + 1) % backgrounds.length;
+}
+
+// Lancer le changement toutes les 2 secondes
+setInterval(changeBackground, 2000);
