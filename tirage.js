@@ -66,7 +66,8 @@ function moveImage()
 const backgrounds = [
     "url('background1.jpg')",
     "url('background2.jpg')",
-    "url('background3.png')"
+    "url('background3.png')",
+    "url('background4.png')"
 ];
 
 let index = 0;

@@ -8,7 +8,8 @@ else
 {
     $utilisateurs = [];
 }
-
+$chaine = ['é','e','à'];
+$chaine[0] = 'e';
 ?>
 <!DOCTYPE html>
 <html lang="en">
