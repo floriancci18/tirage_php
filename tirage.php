@@ -8,8 +8,7 @@ else
 {
     $utilisateurs = [];
 }
-$chaine = ['é','e','à'];
-$chaine[0] = 'e';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +20,6 @@ $chaine[0] = 'e';
 </head>
 <body>
     <div id="resultat"></div>
-    <div id="kenza"></div>
     <form name="tirage" id="tirage" method="POST" action="resultat.php">
         <div>
             <input type="checkbox" name="apprennant[]" value="Imane" <?php if(in_array('Imane',$utilisateurs)) echo 'disabled="disabled"';else echo 'checked="checked"'; ?>><label>Imane</label>
