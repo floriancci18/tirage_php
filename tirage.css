@@ -3,7 +3,7 @@ body{
     background-size:cover;
 }
 body#resultat{
-    background:url('background4.jpg') no-repeat;
+    background:url('background5.jpg') no-repeat;
     background-size:cover;
 }
 body#resultat div{
@@ -29,7 +29,7 @@ form div{
     margin:20px 0;
 }
 button{
-    background: url('drapeau.png') no-repeat;
+    background: url('drapeau.webp') no-repeat;
     background-size:cover;
     background-position: center;
     width: 100%;
@@ -40,7 +40,7 @@ button{
 }
 div#resultat{
     text-align: center;
-    color:pink;
+    color:red;
     font-size: 150px;
     line-height: 100vh;
 

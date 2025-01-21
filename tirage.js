@@ -5,7 +5,7 @@ submit.addEventListener('submit',function(event){
   
     let resultat = document.getElementById('resultat');
     this.style.display = 'none';
-    let compteur = 10;
+    let compteur = 113;
     let musique = new Audio('musique.mp3');
     
     const compte = () =>{
@@ -25,7 +25,9 @@ submit.addEventListener('submit',function(event){
 const backgrounds = [
     "url('background1.png')",
     "url('background2.jpg')",
-    "url('background3.jpg')",
+    "url('background3.png')",
+    "url('background4.png')",
+    "url('background5.jpg')",
 ];
 
 let index = 0;
