@@ -5,11 +5,11 @@ submit.addEventListener('submit',function(event){
   
     let resultat = document.getElementById('resultat');
     this.style.display = 'none';
-    let compteur = 113;
-    let musique = new Audio('musique.mp3');
+    let compteur = 30;
+    //let musique = new Audio('musique.mp3');
     
     const compte = () =>{
-        musique.play();
+        //musique.play();
         const interval = setInterval(() =>{
             resultat.innerText = compteur;
             if(compteur==0){
@@ -23,11 +23,11 @@ submit.addEventListener('submit',function(event){
     compte();
 });
 const backgrounds = [
-    "url('background1.png')",
+    "url('background1.jpeg')",
     "url('background2.jpg')",
-    "url('background3.png')",
+    "url('background3.jpeg')",
     "url('background4.png')",
-    "url('background5.jpg')",
+    "url('background5.avif')",
 ];
 
 let index = 0;
