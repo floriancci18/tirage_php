@@ -1,9 +1,9 @@
 body{
-    background:url('background1.jpeg') no-repeat;
+    background:url('background1.jpg') no-repeat;
     background-size:cover;
 }
 body#resultat{
-    background:url('background3.jpeg') no-repeat;
+    background:url('background2.webp') no-repeat;
     background-size:cover;
 }
 body#resultat div{
@@ -29,7 +29,7 @@ form div{
     margin:20px 0;
 }
 button{
-    background: url('bouton.webp') no-repeat;
+    background: url('bouton.png') no-repeat;
     background-size:cover;
     background-position: center;
     width: 100%;

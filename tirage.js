@@ -23,11 +23,11 @@ submit.addEventListener('submit',function(event){
     compte();
 });
 const backgrounds = [
-    "url('background1.jpeg')",
-    "url('background2.jpg')",
+    "url('background1.jpg')",
+    "url('background2.webp')",
     "url('background3.jpeg')",
-    "url('background4.png')",
-    "url('background5.avif')",
+    "url('background4.webp')",
+    "url('background5.jpg')",
 ];
 
 let index = 0;
