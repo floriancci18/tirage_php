@@ -41,11 +41,21 @@ session_start();
     <link rel="stylesheet" href="tirage.css">
 </head>
 <body id="resultat">
-    <div>
+    <div id="son">
         <?=$utilisateur; ?>
     </div>
     <a href="tirage.php" class="link">Retour</a>
     -
     <a href="initialise.php" class="link2">Réinitialiser</a>
+<audio id="audio" src="jingle.mp3" style="display:none;"></audio>
+<script>
+let music = document.getElementById('son');
+music.addEventListener('click',() =>{
+    let musique = new Audio('jingle.mp3');
+    musique.play();
+});
+
+
+</script>
 </body>
 </html>

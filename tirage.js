@@ -6,7 +6,7 @@ submit.addEventListener('submit',function(event){
     let resultat = document.getElementById('resultat');
     this.style.display = 'none';
     let compteur = 30;
-    //let musique = new Audio('musique.mp3');
+    //let musique = new Audio('jingle.mp3');
     
     const compte = () =>{
         //musique.play();
@@ -28,6 +28,8 @@ const backgrounds = [
     "url('background3.jpeg')",
     "url('background4.webp')",
     "url('background5.jpg')",
+    "url('background6.avif')",
+    "url('background7.jpg)",
 ];
 
 let index = 0;
@@ -41,3 +43,4 @@ function changeBackground() {
 
 // Lancer le changement toutes les 2 secondes
 setInterval(changeBackground, 2000);
+
