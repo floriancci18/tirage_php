@@ -29,7 +29,7 @@ const backgrounds = [
     "url('background4.webp')",
     "url('background5.jpg')",
     "url('background6.avif')",
-    "url('background7.jpg)",
+    "url('background7.jpg')",
 ];
 
 let index = 0;
