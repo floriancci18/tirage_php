@@ -2,11 +2,14 @@ body{
     background:url('background1.jpg') no-repeat;
     background-size:cover;
 }
-body#resultat{
+/*body#resultat{
     background:url('background7.jpg') no-repeat;
     background-size:cover;
+}*/
+body#resultat{
+    background:white !important;
 }
-body#resultat div{
+body#resultat div#son{
     background:white;
     opacity:0.4;
     width: 60%;
@@ -60,3 +63,18 @@ a{
     padding: 25px;
     border-radius:25px;
 }
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place la vidéo derrière le contenu */
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que la vidéo couvre tout l'écran */
+  }

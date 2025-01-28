@@ -6,10 +6,10 @@ submit.addEventListener('submit',function(event){
     let resultat = document.getElementById('resultat');
     this.style.display = 'none';
     let compteur = 30;
-    //let musique = new Audio('jingle.mp3');
+    let musique = new Audio('jingle.mp3');
     
     const compte = () =>{
-        //musique.play();
+        musique.play();
         const interval = setInterval(() =>{
             resultat.innerText = compteur;
             if(compteur==0){
@@ -24,12 +24,12 @@ submit.addEventListener('submit',function(event){
 });
 const backgrounds = [
     "url('background1.jpg')",
-    "url('background2.webp')",
-    "url('background3.jpeg')",
-    "url('background4.webp')",
-    "url('background5.jpg')",
-    "url('background6.avif')",
-    "url('background7.jpg')",
+    "url('background2.jpg')",
+    "url('background3.jpg')",
+    "url('background4.jpeg')",
+    "url('background5.webp')",
+    "url('background6.jpg')",
+    
 ];
 
 let index = 0;

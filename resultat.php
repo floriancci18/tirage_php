@@ -41,21 +41,27 @@ session_start();
     <link rel="stylesheet" href="tirage.css">
 </head>
 <body id="resultat">
+<div class="video-background" >
+<video loop playsinline id="video">
+      <source src="background.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas les vidéos HTML5.
+    </video>
+</div>
     <div id="son">
         <?=$utilisateur; ?>
     </div>
     <a href="tirage.php" class="link">Retour</a>
     -
     <a href="initialise.php" class="link2">Réinitialiser</a>
-<audio id="audio" src="jingle.mp3" style="display:none;"></audio>
 <script>
-let music = document.getElementById('son');
-music.addEventListener('click',() =>{
-    let musique = new Audio('jingle.mp3');
-    musique.play();
+let div = document.getElementById('son');
+let video = document.getElementById('video');
+div.addEventListener('click',() =>
+{
+    video.play();
+    alert('Lancement vidéo');
 });
 
-
-</script>
+</script>    
 </body>
 </html>

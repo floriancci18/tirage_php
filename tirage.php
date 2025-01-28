@@ -19,6 +19,7 @@ else
     <link rel="stylesheet" href="tirage.css">
 </head>
 <body>
+   
     <div id="resultat"></div>
     <form name="tirage" id="tirage" method="POST" action="resultat.php">
         <div>
