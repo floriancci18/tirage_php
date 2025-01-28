@@ -29,6 +29,7 @@ const backgrounds = [
     "url('background4.jpeg')",
     "url('background5.webp')",
     "url('background6.jpg')",
+    "url('bouton.jpeg')",
     
 ];
 
@@ -38,6 +39,7 @@ let index = 0;
 function changeBackground() {
     document.body.style.background = backgrounds[index];
     document.body.style.backgroundSize = "cover"; // Optionnel pour les images
+    document.body.style.backgroundPosition = "center";
     index = (index + 1) % backgrounds.length;
 }
 
