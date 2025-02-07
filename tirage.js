@@ -25,11 +25,11 @@ submit.addEventListener('submit',function(event){
 const backgrounds = [
     "url('background1.jpg')",
     "url('background2.jpg')",
-    "url('background3.jpg')",
-    "url('background4.jpeg')",
-    "url('background5.webp')",
+    "url('background3.webp')",
+    "url('background4.jpg')",
+    "url('background5.jpg')",
     "url('background6.jpg')",
-    "url('bouton.jpeg')",
+   
     
 ];
 

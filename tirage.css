@@ -3,10 +3,10 @@ body{
     background-size:cover;
     background-position: center center;
 }
-/*body#resultat{
-    background:url('background7.jpg') no-repeat;
+body#resultat{
+    background:url('background.jpg') no-repeat;
     background-size:cover;
-}*/
+}
 body#resultat{
     background:white !important;
 }
