@@ -6,10 +6,10 @@ submit.addEventListener('submit',function(event){
     let resultat = document.getElementById('resultat');
     this.style.display = 'none';
     let compteur = 30;
-    let musique = new Audio('jingle.mp3');
+    //let musique = new Audio('jingle.mp3');
     
     const compte = () =>{
-        musique.play();
+        //musique.play();
         const interval = setInterval(() =>{
             resultat.innerText = compteur;
             if(compteur==0){
@@ -27,8 +27,8 @@ const backgrounds = [
     "url('background2.jpg')",
     "url('background3.webp')",
     "url('background4.jpg')",
-    "url('background5.jpg')",
-    "url('background6.jpg')",
+    "url('background5.JPG')",
+  
    
     
 ];

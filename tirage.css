@@ -4,19 +4,17 @@ body{
     background-position: center center;
 }
 body#resultat{
-    background:url('background.jpg') no-repeat;
+    background:url('background4.jpg') no-repeat;
     background-size:cover;
 }
-body#resultat{
-    background:white !important;
-}
+
 body#resultat div#son{
-    background:white;
-    opacity:0.4;
+    
+    
     width: 60%;
     height: 400px;
     margin: 0 auto;
-    color:black;
+    color:white;
     text-align: center;
     line-height: 400px;
     font-size: 80px;
@@ -33,7 +31,7 @@ form div{
     margin:20px 0;
 }
 button{
-    background: url('bouton.jpeg') no-repeat;
+    background: url('bouton.jpg') no-repeat;
     background-size:cover;
     background-position: center;
     width: 100%;
