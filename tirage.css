@@ -2,11 +2,16 @@ body{
     background:url('background1.jpg') no-repeat;
     background-size:cover;
     background-position: center center;
+    overflow: hidden;
+    margin: 0;
 }
-body#resultat{
-    background:url('background3.jpg') no-repeat;
-    background-size:cover;
+.image {
+    position: absolute;
+    width: 200px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+
 }
+
 
 body#resultat div#son{
     
@@ -31,7 +36,7 @@ form div{
     margin:20px 0;
 }
 button{
-    background: url('bouton.jpg') no-repeat;
+    background: url('bouton.jpeg') no-repeat;
     background-size:cover;
     background-position: center;
     width: 100%;

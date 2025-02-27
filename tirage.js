@@ -1,33 +1,11 @@
-let submit = document.getElementById('tirage');
-submit.addEventListener('submit',function(event){
-    event.preventDefault();
-    const form = event.currentTarget;
-  
-    let resultat = document.getElementById('resultat');
-    this.style.display = 'none';
-    let compteur = 30;
-    //let musique = new Audio('jingle.mp3');
-    
-    const compte = () =>{
-        //musique.play();
-        const interval = setInterval(() =>{
-            resultat.innerText = compteur;
-            if(compteur==0){
-               form.submit();
-            }
-            else{
-                compteur--;
-            }
-        },1000);
-    }
-    compte();
-});
+
 const backgrounds = [
     "url('background1.jpg')",
-    "url('background2.jpg')",
-    "url('background3.jpg')",
+    "url('background2.jpeg')",
+    "url('background3.jpeg')",
     "url('background4.jpeg')",
-    "url('background5.gif')",
+    "url('background5.jpeg')",
+    "url('background6.jpg')",
   
    
     
